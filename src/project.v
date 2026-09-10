@@ -1,8 +1,7 @@
-// Change the module name!
-module tt_um_uwasic_onboarding_StefanChimet(...)
-
-  // Add this inside the module block
+module tt_um_uwasic_onboarding_StefanChimet(
   assign uio_oe = 8'hFF; // Set all IOs to output
+);
+  
   
   // Create wires to refer to the values of the registers
   wire [7:0] en_reg_out_7_0;
